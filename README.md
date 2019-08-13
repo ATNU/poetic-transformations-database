@@ -4,7 +4,7 @@ Builds a docker container for an [exist-db](http://exist-db.org/exist/apps/homep
 ##Deployment
 
 ###Docker commands
-```docker-compose build .```
+```docker-compose build ```
 
 ```docker-compose up -d```
 
