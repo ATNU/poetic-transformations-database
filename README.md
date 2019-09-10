@@ -1,14 +1,14 @@
 # Poetic Transformations Database
 Builds a docker container for an [exist-db](http://exist-db.org/exist/apps/homepage/index.html) database, an open source XML database and GUI.
 
-##Deployment
+## Deployment
 
-###Docker commands
+### Docker commands
 ```docker-compose build ```
 
 ```docker-compose up -d```
 
-###Setting up the database for the first time
+### Setting up the database for the first time
 Navigate to ```http://192.168.99.100:8080``` and select 'eXide - XQuery IDE'.
 
 Upload files and configure:
@@ -21,7 +21,7 @@ Upload files and configure:
 7. save config file in db > system > config > db > transformations as 'collection.xconf'
 8. prompt will ask you if you want to apply the configuration, select ok
 
-###Querying the database
+### Querying the database
 To run queries direct in the database, use the eXide environment. 
 
 To query the eXist API directly submit queries directly, e.g. through Postman submit GET request to ```http://192.168.99.100:8080/exist/rest/db/transformations?_query=/db/transformations/M1.xql```
