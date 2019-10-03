@@ -1,0 +1,19 @@
+version: "3"
+services:
+  exist:
+    image: existdb/existdb:latest
+    container_name: exist
+    volumes:
+      - data:/exist/webapp/WEB-INF/data
+      - config:/exist/webapp/WEB-INF/data
+    networks:
+      - www
+    ports:
+      - 8080:8080
+      - 8443:8443
+    restart: unless-stopped
+volumes:
+  data:
+  config:
+networks:
+  www:
