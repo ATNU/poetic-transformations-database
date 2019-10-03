@@ -2,8 +2,19 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="0f4a33da-aef8-4bd2-aef0-a51e85995d9c" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/config/collection.xconf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/config/transform2HTMLDiv.xsl" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/B.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/M1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/M2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/M3.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/M5.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/M6.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/P1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/P2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/P3.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/P4.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/docker-compose.yaml" beforeDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -13,8 +24,7 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="DefaultGradleProjectSettings">
-    <option name="testRunner" value="GRADLE" />
-    <option name="delegatedBuild" value="true" />
+    <option name="isMigrated" value="true" />
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
@@ -30,20 +40,11 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/config/colllection.xconf">
-          <provider selected="true" editor-type-id="text-editor">
-            <state>
-              <caret selection-end-line="6" selection-end-column="13" />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/transform2HTMLDiv.xsl">
+        <entry file="file://$PROJECT_DIR$/Dockerfile">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="588">
-              <caret line="230" column="74" selection-start-line="230" selection-start-column="74" selection-end-line="230" selection-end-column="74" />
+            <state relative-caret-position="119">
+              <caret line="7" selection-start-line="7" selection-end-line="7" />
             </state>
           </provider>
         </entry>
@@ -59,6 +60,7 @@
         <option value="$PROJECT_DIR$/config/collection.xconf" />
         <option value="$PROJECT_DIR$/config/colllection.xconf" />
         <option value="$PROJECT_DIR$/README.md" />
+        <option value="$PROJECT_DIR$/Dockerfile" />
       </list>
     </option>
   </component>
@@ -74,8 +76,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="PackagesPane" />
-      <pane id="ProjectPane" />
       <pane id="Scope">
         <subPane subId="Scope 'Project Files'; set:Project Files; class com.intellij.psi.search.scope.ProjectFilesScope">
           <expand>
@@ -83,10 +83,22 @@
               <item name="poetic-transformations-database" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
               <item name="poetic-transformations-exist-database" type="2674bda8:ScopeViewTreeModel$GroupNode" />
             </path>
+            <path>
+              <item name="poetic-transformations-database" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
+              <item name="poetic-transformations-exist-database" type="2674bda8:ScopeViewTreeModel$GroupNode" />
+              <item name="config" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+            </path>
+            <path>
+              <item name="poetic-transformations-database" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
+              <item name="poetic-transformations-exist-database" type="2674bda8:ScopeViewTreeModel$GroupNode" />
+              <item name="data" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+            </path>
           </expand>
           <select />
         </subPane>
       </pane>
+      <pane id="PackagesPane" />
+      <pane id="ProjectPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -135,6 +147,8 @@
       <workItem from="1568032536279" duration="614000" />
       <workItem from="1568101624682" duration="12000" />
       <workItem from="1569847895098" duration="687000" />
+      <workItem from="1570091494634" duration="696000" />
+      <workItem from="1570093020016" duration="411000" />
     </task>
     <task id="LOCAL-00001" summary="add setup instructions to README">
       <created>1565683838626</created>
@@ -157,16 +171,37 @@
       <option name="project" value="LOCAL" />
       <updated>1568021493940</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="update dockerfile to copy config">
+      <created>1570091574459</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1570091574459</updated>
+    </task>
+    <task id="LOCAL-00005" summary="add data and config files">
+      <created>1570093058373</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1570093058373</updated>
+    </task>
+    <task id="LOCAL-00006" summary="add data and config files">
+      <created>1570093107296</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1570093107296</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="12611000" />
+    <option name="totallyTimeSpent" value="13718000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="1912" y="57" width="1936" height="1056" extended-state="6" />
+    <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.48081023" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.5234541" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -181,7 +216,7 @@
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Version Control" order="8" visible="true" weight="0.20693392" />
+      <window_info active="true" anchor="bottom" id="Version Control" order="8" visible="true" weight="0.5016251" />
       <window_info anchor="bottom" id="Database Changes" order="9" />
       <window_info anchor="bottom" id="Terminal" order="10" />
       <window_info anchor="bottom" id="Event Log" order="11" side_tool="true" />
@@ -202,12 +237,16 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="add setup instructions to README" />
     <MESSAGE value="update readme with adding transform doc" />
-    <option name="LAST_COMMIT_MESSAGE" value="update readme with adding transform doc" />
+    <MESSAGE value="update dockerfile to copy config" />
+    <MESSAGE value="add data and config files" />
+    <option name="LAST_COMMIT_MESSAGE" value="add data and config files" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/config/collection.xconf" />
     <entry file="file://$PROJECT_DIR$/docker-compose.yaml" />
     <entry file="file://$PROJECT_DIR$/../poetic-transformations_db/config/colllection.xconf" />
+    <entry file="file://$PROJECT_DIR$/transform2HTMLDiv.xsl" />
+    <entry file="file://$PROJECT_DIR$/config/colllection.xconf" />
     <entry file="file://$PROJECT_DIR$/README.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
@@ -218,17 +257,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/config/colllection.xconf">
+    <entry file="file://$PROJECT_DIR$/Dockerfile">
       <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret selection-end-line="6" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/transform2HTMLDiv.xsl">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="588">
-          <caret line="230" column="74" selection-start-line="230" selection-start-column="74" selection-end-line="230" selection-end-column="74" />
+        <state relative-caret-position="119">
+          <caret line="7" selection-start-line="7" selection-end-line="7" />
         </state>
       </provider>
     </entry>
