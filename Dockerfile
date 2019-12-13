@@ -1,4 +1,4 @@
-FROM existdb/existdb
+FROM existdb/existdb:release
 EXPOSE 8080 8443
 # RUN ls /usr/local
 # RUN mkdir -p /usr/local/data
